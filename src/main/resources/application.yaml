@@ -1,0 +1,6 @@
+kafka:
+    bootstrap.servers: localhost:19092,localhost:29092,localhost:39092
+    topic: "nasdaq_historical_spring"
+
+redpanda:
+    schema.registry.url: http://localhost:18081
